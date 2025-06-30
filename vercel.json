@@ -8,9 +8,11 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/server.js",
-      "methods": ["GET", "POST", "OPTIONS"]
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/server.js"
     }
   ]
 }
