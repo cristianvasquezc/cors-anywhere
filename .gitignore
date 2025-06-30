@@ -1,6 +1,8 @@
 *.swp
 *.tmp
 *.log
+.env
+package-lock.json
 
 coverage/
 node_modules/
